@@ -1,0 +1,139 @@
+{
+	"_id": "577b94c7cd5d337c0d86eeda",
+	"modified": "2016-07-12T13:04:42.624Z",
+	"type": "resource",
+	"title": "UserDetails",
+	"name": "userDetails",
+	"path": "userdetails",
+	"created": "2016-07-05T11:06:47.939Z",
+	"components": [{
+		"input": true,
+		"tableView": true,
+		"inputType": "text",
+		"inputMask": "",
+		"label": "First Name",
+		"key": "firstName",
+		"placeholder": "",
+		"prefix": "",
+		"suffix": "",
+		"multiple": false,
+		"defaultValue": "",
+		"protected": false,
+		"unique": false,
+		"persistent": true,
+		"validate": {
+			"required": false,
+			"minLength": "",
+			"maxLength": "",
+			"pattern": "",
+			"custom": "",
+			"customPrivate": false
+		},
+		"conditional": {
+			"show": null,
+			"when": null,
+			"eq": ""
+		},
+		"type": "textfield"
+	}, {
+		"input": true,
+		"tableView": true,
+		"inputType": "text",
+		"inputMask": "",
+		"label": "Arun name",
+		"key": "lastname",
+		"placeholder": "",
+		"prefix": "",
+		"suffix": "",
+		"multiple": false,
+		"defaultValue": "",
+		"protected": false,
+		"unique": false,
+		"persistent": true,
+		"validate": {
+			"required": false,
+			"minLength": "",
+			"maxLength": "",
+			"pattern": "",
+			"custom": "",
+			"customPrivate": false
+		},
+		"conditional": {
+			"show": null,
+			"when": null,
+			"eq": ""
+		},
+		"type": "textfield"
+	}, {
+		"input": true,
+		"tableView": true,
+		"label": "Address",
+		"key": "address",
+		"placeholder": "",
+		"prefix": "",
+		"suffix": "",
+		"rows": 3,
+		"multiple": false,
+		"defaultValue": "",
+		"protected": false,
+		"persistent": true,
+		"wysiwyg": false,
+		"validate": {
+			"required": false,
+			"minLength": "",
+			"maxLength": "",
+			"pattern": "",
+			"custom": ""
+		},
+		"type": "textarea",
+		"conditional": {
+			"show": null,
+			"when": null,
+			"eq": ""
+		}
+	}, {
+		"input": true,
+		"label": "Submit",
+		"tableView": false,
+		"key": "submit",
+		"size": "md",
+		"leftIcon": "",
+		"rightIcon": "",
+		"block": false,
+		"action": "submit",
+		"disableOnInvalid": true,
+		"theme": "primary",
+		"type": "button"
+	}],
+	"owner": "577b591d063166040d597cb6",
+	"submissionAccess": [{
+		"type": "create_all",
+		"roles": []
+	}, {
+		"type": "read_all",
+		"roles": ["577b58de063166040d597caa"]
+	}, {
+		"type": "update_all",
+		"roles": ["577b58de063166040d597caa"]
+	}, {
+		"type": "delete_all",
+		"roles": ["577b58de063166040d597caa"]
+	}, {
+		"type": "create_own",
+		"roles": ["577b58de063166040d597caa"]
+	}, {
+		"type": "read_own",
+		"roles": ["577b58de063166040d597caa"]
+	}, {
+		"type": "update_own",
+		"roles": ["577b58de063166040d597caa"]
+	}, {
+		"type": "delete_own",
+		"roles": ["577b58de063166040d597caa"]
+	}],
+	"access": [{
+		"type": "read_all",
+		"roles": ["577b58de063166040d597ca8", "577b58de063166040d597ca9", "577b58de063166040d597caa"]
+	}],
+	"tags": []
+}
